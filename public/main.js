@@ -2,7 +2,7 @@ let query = {};
 
 geturl = () => {
     query.url = document.getElementById("urlinput").value;
-    query.address = document.getElementById('address').value;
+    query.address = "NQ45 4KTH GT8X J3JB MD7B UM00 QQXT Y2D4 THV0";
     query.shares = document.getElementById('shares').value;
     query.shares_mined = 0;
     saveAddress(query.address);
